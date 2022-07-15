@@ -7,6 +7,7 @@ import "element-plus/dist/index.css";
 import "./style.css";
 import App from "./App.vue";
 
+plLocale.weekStart = 1;
 dayjs.locale(plLocale, null, false);
 
 const app = createApp(App);
